@@ -3,7 +3,7 @@ name: Issue Comments
 jobs:
   check_comments:
     name: Check comments for /test
-      steps:
+    steps:
         - name: Check for Command
           id: command
           uses: xt0rted/slash-command-action@v1
