@@ -1,7 +1,5 @@
 name: Slash Command Dispatch
-on:
-issue_comment:
-  types: [created]
+on: pull-request
 jobs:
   slashCommandDispatch:
     runs-on: ubuntu-latest
